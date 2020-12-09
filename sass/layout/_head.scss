@@ -1,0 +1,109 @@
+// HEAD BLOCK
+
+
+.head__position{
+    padding: 0.9em;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $position-color;
+
+    i{
+        padding-right: 1em;
+    }
+}
+
+.head__section{
+    padding-bottom: 4em;
+    background-color: $bg-color;
+
+    .head__section__txt1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 1.9em;
+        padding: 1.5em 2em 0 2em;
+    }
+    
+    .head__section__txt2{
+        color: $txtgray-color;
+        text-align: center;
+        padding: 2em;
+        font-size: 1.1em;
+    }
+}
+
+// BUTTON
+
+.head__btn{
+    background-color: $secondary-color;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    padding: 1em 0.8em;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient($secondary-color, $tertiary-color);
+
+    &__txt{
+        color: white;
+        text-decoration: none;
+        font-weight: 400;  
+    }
+}
+
+
+// FONCTIONNEMENT
+
+.fonctionnement__title{
+    text-align: start;
+    padding: 2em 0 2em 0;
+}
+
+.fonctionnement__section__div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .fonctionnement__block{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 2em;
+
+        .fonctionnement__box{
+            border-radius: 20px;
+            display: flex;
+            justify-content: flex-start;
+            padding: 1.5em 1.5em 1.5em 0;
+            background-color: $bg-color;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            .fonctionnement__box__number{
+                background-color: $tertiary-color;
+                color: white;
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+                text-align: center;
+                align-items: center;
+                position: relative;
+                top: 0;
+                left: -10px;
+            }
+
+            .fonctionnement__box__txticon{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                padding-left: 2em;
+                font-weight: 600;
+
+                i{
+                    padding-right: 2em;
+                    color: $txtgray-color;
+                }
+            }   
+        }
+    }
+}

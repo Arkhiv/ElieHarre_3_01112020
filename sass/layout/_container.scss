@@ -1,0 +1,59 @@
+// Restautant - Polaroid
+
+.restaurant__sectiondiv
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+    
+    .restaurant__polaroid a{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        text-align: start;
+        text-decoration: none;
+        color: $txt-color;
+    }
+
+    .restaurant__imgfill{
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        border-radius: 18px 18px 0 0;
+    }
+                      // Image background
+    #lapalgout{
+        background-image: url("../img/lapalgout.jpg");
+    }
+    #lanotench{
+        background-image: url("../img/lanotench.jpg");
+    }
+    #alafr{
+        background-image: url("../img/alafr.jpg");
+    }
+    #delsens{
+        background-image: url("../img/delsens.jpg");
+    }
+
+    .restaurant__polaroid__blocktxt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+    .restaurant__polaroid__title{
+        font-weight: 900;
+        padding-bottom: 3px;
+        font-size: 1.1em;
+        
+    }
+    .restaurant__polaroid__heart{
+        font-size: 1.4em;
+    }
+}
+
