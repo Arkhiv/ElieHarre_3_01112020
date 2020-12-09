@@ -1,0 +1,162 @@
+// PAGES RESTAURANTS
+//MAIN
+
+.pages__header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        position: relative;
+        right: 110px;
+        font-size: 1.4em;
+    }
+
+}
+
+.section__restaubackground{
+    padding: 1em 0 1em 0;
+    background-image: url("../img/alafr.jpg");
+    background-size: 100%;
+}
+
+.titleheart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px 40px 0 0;
+    background-color: $bg-color;
+    padding: 20px;
+    position: relative;
+    top: 16px;
+    width: 100%;
+
+
+    .restaurant__name{
+        font-family: 'Shrikhand';
+    }
+
+    i{
+        font-size: 1.7em;
+        font-weight: 400;
+    }
+}
+
+
+h3{
+    font-weight: 400;
+}
+
+.colored__stick{
+    background: linear-gradient(to right, $stick-color, $stick-color);
+    content: '';
+    top: 11px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+}
+
+.entrees__block{
+    background-color: $bg-color;
+    padding-bottom: 1em;
+
+    .entrees__txt{
+        background-color: white;
+        border-radius: 8px;
+        padding: 1em;
+        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .entrees__title{
+        font-weight: 900;
+    }
+    .entrees__price{
+
+        font-weight: 600;
+    }
+}
+
+.plats__block{
+    background-color: $bg-color;
+
+    .plats__txt{
+        background-color: white;
+        border-radius: 8px;
+        padding: 1em;
+        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .plats__title{
+        font-weight: 900;
+    }
+    .plats__price{
+        font-weight: 600;
+    }
+}
+
+.desserts__block{
+    background-color: $bg-color;
+
+    .desserts__txt{
+        background-color: white;
+        border-radius: 8px;
+        padding: 1em;
+        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .desserts__title{
+        font-weight: 900;
+    }
+
+    .desserts__price{
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// BTN COMMAND
+.section__command__btn{
+    padding: 30px 20px 60px 20px;
+}
+.command__btn{
+    background-color: $secondary-color;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    padding: 1em 0.8em;
+    width: 50%;
+    margin: auto;
+    background: linear-gradient($secondary-color, $tertiary-color);
+
+    &__txt{
+        color: white;
+        text-decoration: none;
+        font-weight: 400;  
+    }
+}
