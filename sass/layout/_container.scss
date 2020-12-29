@@ -25,6 +25,21 @@
         background-repeat: no-repeat;
         background-position: 50% 50%;
         border-radius: 18px 18px 0 0;
+
+        .greennew{
+            background-color: $newbg-color;
+            color: $newtxt-color;
+            width: 20%;
+            position: relative;
+            left: 75%;
+            margin-top: 1em;
+            //"nouveau"
+            display: flex;
+            justify-content: center;
+            font-weight: 500;
+            padding: 0.4em;
+            border-radius: 3px;
+        }
     }
                       // Image background
     #lapalgout{
@@ -54,6 +69,23 @@
     }
     .restaurant__polaroid__heart{
         font-size: 1.4em;
+        color: $txtgray-color;
+        opacity: 0.8;
+
+        &:hover{
+            color: $primary-color;
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+          }
+
     }
+
+    a:hover{
+
+         .restaurant__polaroid__title{
+            color: $primary-color;
+        }
+    } 
 }
 
