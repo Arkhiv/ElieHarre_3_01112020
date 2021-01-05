@@ -30,7 +30,9 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
-
+body::-moz-scrollbar{
+    display: none;
+}
 
 header{
   

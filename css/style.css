@@ -209,6 +209,7 @@ footer h3 {
 }
 
 .head__btn:hover {
+  cursor: pointer;
   background: #ff60d3;
   box-shadow: 0px 5px 15px 1px #b8a2b8;
 }
@@ -232,11 +233,20 @@ footer h3 {
 .fonctionnement__section__div .fonctionnement__block :nth-child(1):hover {
   background: #F5EDFF;
 }
+.fonctionnement__section__div .fonctionnement__block :nth-child(1):hover .fas {
+  color: #9356DC;
+}
 .fonctionnement__section__div .fonctionnement__block :nth-child(2):hover {
   background: #F5EDFF;
 }
+.fonctionnement__section__div .fonctionnement__block :nth-child(2):hover .fas {
+  color: #9356DC;
+}
 .fonctionnement__section__div .fonctionnement__block :nth-child(3):hover {
   background: #F5EDFF;
+}
+.fonctionnement__section__div .fonctionnement__block :nth-child(3):hover .fas {
+  color: #9356DC;
 }
 .fonctionnement__section__div .fonctionnement__block .fonctionnement__box {
   border-radius: 20px;
@@ -530,8 +540,8 @@ h3 {
 
 .check-wrapper {
   flex: 0 0 0;
-  font-size: 0rem;
-  padding: 0rem;
+  font-size: 0em;
+  padding: 0em;
   background-color: #99E2D0;
   display: flex;
   justify-content: center;
@@ -540,6 +550,9 @@ h3 {
   border-radius: 0 10px 10px 0;
 }
 
+.entrees__wrapper:hover {
+  cursor: pointer;
+}
 .entrees__wrapper:hover .check-wrapper {
   flex: 0 0 2em;
   font-size: 1.5em;
@@ -552,6 +565,9 @@ h3 {
   animation-name: spin;
 }
 
+.plats__wrapper:hover {
+  cursor: pointer;
+}
 .plats__wrapper:hover .check-wrapper {
   flex: 0 0 2em;
   font-size: 1.5em;
@@ -564,6 +580,9 @@ h3 {
   animation-name: spin;
 }
 
+.desserts__wrapper:hover {
+  cursor: pointer;
+}
 .desserts__wrapper:hover .check-wrapper {
   flex: 0 0 2em;
   font-size: 1.5em;
@@ -598,6 +617,7 @@ h3 {
 }
 
 .command__btn:hover {
+  cursor: pointer;
   background: #ff60d3;
   box-shadow: 0px 5px 15px 1px #b8a2b8;
 }
@@ -636,6 +656,10 @@ body section {
 }
 
 body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-moz-scrollbar {
   display: none;
 }
 
