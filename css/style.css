@@ -101,7 +101,7 @@
   border-radius: 18px 18px 0 0;
 }
 .restaurant__sectiondiv .restaurant__imgfill .greennew {
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   color: #008766;
   width: 20%;
   position: relative;
@@ -141,14 +141,17 @@
   color: #656565;
   opacity: 0.8;
 }
+.restaurant__sectiondiv .restaurant__polaroid__heart i:hover {
+  font-weight: 900;
+}
 .restaurant__sectiondiv .restaurant__polaroid__heart:hover {
-  color: #9356DC;
+  color: #9356dc;
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
 }
 .restaurant__sectiondiv a:hover .restaurant__polaroid__title {
-  color: #9356DC;
+  color: #9356dc;
 }
 
 footer {
@@ -166,7 +169,7 @@ footer h3 {
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   color: #656565;
 }
 .head__position i {
@@ -176,7 +179,7 @@ footer h3 {
 
 .head__section {
   padding-bottom: 4em;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 .head__section .head__section__txt1 {
   text-align: center;
@@ -192,14 +195,14 @@ footer h3 {
 }
 
 .head__btn {
-  background-color: #FF79DA;
+  background-color: #ff79da;
   border-radius: 25px;
   text-align: center;
   align-content: center;
   padding: 1em 0.8em;
   width: 50%;
   margin: auto;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#ff79da, #9356dc);
   box-shadow: 0px 5px 20px 2px #949194;
 }
 .head__btn__txt {
@@ -231,33 +234,33 @@ footer h3 {
   padding: 2em;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(1):hover {
-  background: #F5EDFF;
+  background: #f5edff;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(1):hover .fas {
-  color: #9356DC;
+  color: #9356dc;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(2):hover {
-  background: #F5EDFF;
+  background: #f5edff;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(2):hover .fas {
-  color: #9356DC;
+  color: #9356dc;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(3):hover {
-  background: #F5EDFF;
+  background: #f5edff;
 }
 .fonctionnement__section__div .fonctionnement__block :nth-child(3):hover .fas {
-  color: #9356DC;
+  color: #9356dc;
 }
 .fonctionnement__section__div .fonctionnement__block .fonctionnement__box {
   border-radius: 20px;
   display: flex;
   justify-content: flex-start;
   padding: 1.5em 1.5em 1.5em 0;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .fonctionnement__section__div .fonctionnement__block .fonctionnement__box .fonctionnement__box__number {
-  background-color: #9356DC;
+  background-color: #9356dc;
   color: white;
   border-radius: 50%;
   height: 20px;
@@ -301,11 +304,12 @@ footer h3 {
   position: relative;
 }
 
-.double-bounce1, .double-bounce2 {
+.double-bounce1,
+.double-bounce2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #9356DC;
+  background-color: #9356dc;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -318,7 +322,7 @@ footer h3 {
 }
 
 #bodypages {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .pages__header {
@@ -367,7 +371,7 @@ footer h3 {
   align-items: center;
   justify-content: space-between;
   border-radius: 40px 40px 0 0;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding: 20px;
   position: relative;
   top: 80%;
@@ -383,7 +387,7 @@ footer h3 {
   opacity: 0.8;
 }
 .titleheart i:hover {
-  color: #9356DC;
+  color: #9356dc;
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -394,7 +398,7 @@ h3 {
 }
 
 .colored__stick {
-  background: linear-gradient(to right, #99E2D0, #99E2D0);
+  background: linear-gradient(to right, #99e2d0, #99e2d0);
   content: "";
   top: 11px;
   left: 0;
@@ -404,7 +408,7 @@ h3 {
 }
 
 .entrees__block {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -449,7 +453,7 @@ h3 {
 }
 
 .plats__block {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -494,7 +498,7 @@ h3 {
 }
 
 .desserts__block {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding-bottom: 1em;
   display: flex;
   flex-direction: column;
@@ -542,7 +546,7 @@ h3 {
   flex: 0 0 0;
   font-size: 0em;
   padding: 0em;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -600,14 +604,14 @@ h3 {
 }
 
 .command__btn {
-  background-color: #FF79DA;
+  background-color: #ff79da;
   border-radius: 25px;
   text-align: center;
   align-content: center;
   padding: 1em 0.8em;
   width: 50%;
   margin: auto;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#ff79da, #9356dc);
   box-shadow: 0px 5px 20px 2px #949194;
 }
 .command__btn__txt {
@@ -634,11 +638,15 @@ h3 {
   animation: fadein ease 8s;
 }
 
-.entrees__block h3, .plats__block h3, .desserts__block h3 {
+.entrees__block h3,
+.plats__block h3,
+.desserts__block h3 {
   animation: slideR_L ease 2s;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -688,7 +696,7 @@ footer a .fa-utensils {
   padding-right: 5px;
 }
 footer a:hover {
-  color: #9356DC;
+  color: #9356dc;
 }
 footer h3 {
   font-family: "Shrikhand";

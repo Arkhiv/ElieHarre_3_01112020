@@ -5,86 +5,80 @@
 @import "../layout/head";
 @import "../layout/pages";
 
-
 // MAIN ----------------------------------------->
 
-*,*::after,*::before{
-	margin:0; 
-	padding:0; 
-	box-sizing:border-box;
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto';
+body {
+    font-family: "Roboto";
     font-size: 1em;
 
-    :-webkit-scrollbar{
+    :-webkit-scrollbar {
         display: none;
     }
 
-    section{
+    section {
         padding: 1em;
     }
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
-body::-moz-scrollbar{
+body::-moz-scrollbar {
     display: none;
 }
 
-header{
-  
+header {
     text-align: center;
-    font-family: 'Shrikhand';
+    font-family: "Shrikhand";
 
-    h1{
+    h1 {
         padding: 0.5em 0 0.2em 0;
     }
 
-    #h1index{
+    #h1index {
         position: relative;
         box-shadow: 0px 2px 5px 1px rgba(184, 184, 184, 0.63);
     }
 }
 
-
-footer
-{
+footer {
     background-color: $bg-footer-color;
     color: $txt-footer-color;
     padding: 1em;
 
-    a{
+    a {
         text-decoration: none;
         color: $txt-footer-color;
 
-        .fa-utensils{
+        .fa-utensils {
             padding-right: 5px;
-        }  
+        }
     }
 
-    a:hover{
+    a:hover {
         color: $primary-color;
     }
 
-    h3{
-
-        font-family: 'Shrikhand';
+    h3 {
+        font-family: "Shrikhand";
         font-weight: 200;
         padding-bottom: 1em;
     }
 
-    ul li{
+    ul li {
         list-style-type: none;
         padding-bottom: 0.5em;
 
-        .fas{
+        .fas {
             font-size: 13px;
         }
-    
     }
-
 }
-

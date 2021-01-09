@@ -1,7 +1,6 @@
 // HEAD BLOCK
 
-
-.head__position{
+.head__position {
     padding: 0.9em;
     font-weight: 500;
     display: flex;
@@ -10,24 +9,24 @@
     background-color: $position-color;
     color: $txtgray-color;
 
-    i{
+    i {
         padding-right: 1em;
         color: black;
     }
 }
 
-.head__section{
+.head__section {
     padding-bottom: 4em;
     background-color: $bg-color;
 
-    .head__section__txt1{
+    .head__section__txt1 {
         text-align: center;
         font-weight: 900;
         font-size: 1.9em;
         padding: 1.5em 2em 0 2em;
     }
-    
-    .head__section__txt2{
+
+    .head__section__txt2 {
         color: $txtgray-color;
         text-align: center;
         padding: 2em;
@@ -37,7 +36,7 @@
 
 // BUTTON
 
-.head__btn{
+.head__btn {
     background-color: $secondary-color;
     border-radius: 25px;
     text-align: center;
@@ -46,64 +45,62 @@
     width: 50%;
     margin: auto;
     background: linear-gradient($secondary-color, $primary-color);
-    box-shadow: 0px 5px 20px 2px rgba(148,145,148,1);
+    box-shadow: 0px 5px 20px 2px rgba(148, 145, 148, 1);
 
-    &__txt{
+    &__txt {
         color: white;
         text-decoration: none;
-        font-weight: 400;  
+        font-weight: 400;
     }
-
 }
 
-.head__btn:hover{
+.head__btn:hover {
     cursor: pointer;
     background: darken($secondary-color, 5);
-    box-shadow: 0px 5px 15px 1px rgba(184,162,184,1);
+    box-shadow: 0px 5px 15px 1px rgba(184, 162, 184, 1);
 }
-
 
 // FONCTIONNEMENT
 
-.fonctionnement__title{
+.fonctionnement__title {
     text-align: start;
     padding: 2em 0 2em 0;
 }
 
-.fonctionnement__section__div{
+.fonctionnement__section__div {
     display: flex;
     flex-direction: column;
     text-align: center;
 
-    .fonctionnement__block{
+    .fonctionnement__block {
         display: flex;
         flex-direction: column;
         gap: 2em;
         padding: 2em;
 
-        :nth-child(1):hover{
+        :nth-child(1):hover {
             background: $tertiary-color;
 
-            .fas{
-                color: $primary-color
+            .fas {
+                color: $primary-color;
             }
         }
-        :nth-child(2):hover{
+        :nth-child(2):hover {
             background: $tertiary-color;
 
-            .fas{
-                color: $primary-color
+            .fas {
+                color: $primary-color;
             }
         }
-        :nth-child(3):hover{
+        :nth-child(3):hover {
             background: $tertiary-color;
 
-            .fas{
-                color: $primary-color
+            .fas {
+                color: $primary-color;
             }
         }
 
-        .fonctionnement__box{
+        .fonctionnement__box {
             border-radius: 20px;
             display: flex;
             justify-content: flex-start;
@@ -111,8 +108,7 @@
             background-color: $bg-color;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
-            .fonctionnement__box__number{
+            .fonctionnement__box__number {
                 background-color: $primary-color;
                 color: white;
                 border-radius: 50%;
@@ -125,29 +121,25 @@
                 left: -10px;
             }
 
-            .fonctionnement__box__txticon{
+            .fonctionnement__box__txticon {
                 display: flex;
                 align-items: center;
                 text-align: center;
                 padding-left: 2em;
                 font-weight: 600;
 
-                i{
+                i {
                     padding-right: 2em;
                     color: $txtgray-color;
-
-
                 }
-
-            }   
+            }
         }
     }
 }
 
-
 // LOADER -----------------------------
 
-.loader{
+.loader {
     position: fixed;
     z-index: 2;
     width: 0;
@@ -161,23 +153,24 @@
     animation-name: fade-out;
     animation-duration: 3s;
 }
-  .spinner{
+.spinner {
     width: 40px;
     height: 40px;
     position: relative;
 }
-  .double-bounce1, .double-bounce2{
+.double-bounce1,
+.double-bounce2 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #9356DC;
+    background-color: #9356dc;
     opacity: 0.6;
     position: absolute;
     top: 0;
     left: 0;
-    animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2s infinite ease-in-out;
 }
-  
-  .double-bounce2{
-    animation-delay: -1.0s;
+
+.double-bounce2 {
+    animation-delay: -1s;
 }

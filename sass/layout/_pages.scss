@@ -1,48 +1,47 @@
 // PAGES RESTAURANTS
 //MAIN
 
-#bodypages{
+#bodypages {
     background-color: $bg-color;
 }
-.pages__header{
+.pages__header {
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
 
-    i{
+    i {
         position: relative;
         right: 600%;
         font-size: 1.4em;
     }
 
-    a:visited{
+    a:visited {
         color: black;
     }
 }
 
-.section__restaubackground{
+.section__restaubackground {
     padding: 1em 0 1em 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 20em;
-
 }
-#alafr{
+#alafr {
     background-image: url("../img/alafr.jpg");
 }
-#delsens{
+#delsens {
     background-image: url("../img/delsens.jpg");
 }
-#lanotench{
+#lanotench {
     background-image: url("../img/lanotench.jpg");
 }
-#lapalgout{
+#lapalgout {
     background-image: url("../img/lapalgout.jpg");
 }
-.titleheart{
+.titleheart {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,34 +53,32 @@
     top: 80%;
     width: 100%;
 
-
-    .restaurant__name{
-        font-family: 'Shrikhand';
+    .restaurant__name {
+        font-family: "Shrikhand";
     }
 
-    i{
+    i {
         font-size: 1.7em;
         font-weight: 400;
         color: $txtgray-color;
         opacity: 0.8;
 
-        &:hover{
+        &:hover {
             color: $primary-color;
-            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
             transform: translate3d(0, 0, 0);
-            backface-visibility: hidden;       
-          }
+            backface-visibility: hidden;
+        }
     }
 }
 
-
-h3{
+h3 {
     font-weight: 400;
 }
 
-.colored__stick{
+.colored__stick {
     background: linear-gradient(to right, $stick-color, $stick-color);
-    content: '';
+    content: "";
     top: 11px;
     left: 0;
     width: 50px;
@@ -89,100 +86,47 @@ h3{
     margin-top: -15px;
 }
 
-.entrees__block{
+.entrees__block {
     background-color: $bg-color;
     padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;
 
-    .entrees__wrapper{
-        width:100%;
+    .entrees__wrapper {
+        width: 100%;
         display: flex;
         border-radius: 10px;
         background-color: white;
-        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
+        box-shadow: 0px 2px 15px 1px rgba(133, 133, 133, 0.5);
     }
 
-    .entrees__wrapper__txt{
+    .entrees__wrapper__txt {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         flex: 1;
     }
 
-    .infos{
+    .infos {
         display: flex;
         flex-direction: row;
         flex: 1;
         justify-content: space-between;
         padding-right: 1em;
     }
-    .entrees__title{
+    .entrees__title {
         font-weight: 900;
         padding: 1em 0 0 1em;
-      
     }
-    .infos p:nth-of-type(1n){
+    .infos p:nth-of-type(1n) {
         flex: 1 0 0;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
         padding: 1em 0 1em 1em;
     }
-    .infos p:last-of-type{
-        flex: 0 1;
-        padding: 0 2rem;
-        font-weight: 900;
-        margin-top: 16px;
-    }
-
-}
-
-
-.plats__block{
-    background-color: $bg-color;
-    padding-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-
-    .plats__wrapper{
-        width:100%;
-        display: flex;
-        border-radius: 10px;
-        background-color: white;
-        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
-    }
-
-    .plats__wrapper__txt{
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        flex: 1;
-    }
-
-    .infos{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-        justify-content: space-between;
-        padding-right: 1em;
-    }
-    .plats__title{
-        font-weight: 900;
-        padding: 1em 0 0 1em;
-      
-    }
-
-    .infos p:nth-of-type(1n){
-        flex: 1 0 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        padding: 1em 0 1em 1em;
-    }
-    .infos p:last-of-type{
+    .infos p:last-of-type {
         flex: 0 1;
         padding: 0 2rem;
         font-weight: 900;
@@ -190,61 +134,107 @@ h3{
     }
 }
 
-
-.desserts__block{
+.plats__block {
     background-color: $bg-color;
     padding-bottom: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;
 
-    .desserts__wrapper{
-        width:100%;
+    .plats__wrapper {
+        width: 100%;
         display: flex;
         border-radius: 10px;
         background-color: white;
-        box-shadow: 0px 2px 15px 1px rgba(133,133,133,0.5);
+        box-shadow: 0px 2px 15px 1px rgba(133, 133, 133, 0.5);
     }
 
-    .desserts__wrapper__txt{
+    .plats__wrapper__txt {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         flex: 1;
     }
 
-    .infos{
+    .infos {
         display: flex;
         flex-direction: row;
         flex: 1;
         justify-content: space-between;
         padding-right: 1em;
     }
-    .desserts__title{
+    .plats__title {
         font-weight: 900;
         padding: 1em 0 0 1em;
-      
     }
-    
-    .infos p:nth-of-type(1n){
+
+    .infos p:nth-of-type(1n) {
         flex: 1 0 0;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
         padding: 1em 0 1em 1em;
     }
-    .infos p:last-of-type{
+    .infos p:last-of-type {
         flex: 0 1;
         padding: 0 2rem;
         font-weight: 900;
         margin-top: 16px;
     }
+}
 
+.desserts__block {
+    background-color: $bg-color;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    .desserts__wrapper {
+        width: 100%;
+        display: flex;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0px 2px 15px 1px rgba(133, 133, 133, 0.5);
+    }
+
+    .desserts__wrapper__txt {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        flex: 1;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        padding-right: 1em;
+    }
+    .desserts__title {
+        font-weight: 900;
+        padding: 1em 0 0 1em;
+    }
+
+    .infos p:nth-of-type(1n) {
+        flex: 1 0 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 1em 0 1em 1em;
+    }
+    .infos p:last-of-type {
+        flex: 0 1;
+        padding: 0 2rem;
+        font-weight: 900;
+        margin-top: 16px;
+    }
 }
 
 //CHECK WRAPPER ----------------------------------------------
 
-.check-wrapper{
+.check-wrapper {
     flex: 0 0 0;
     font-size: 0em;
     padding: 0em;
@@ -254,72 +244,66 @@ h3{
     align-items: center;
     color: white;
     border-radius: 0 10px 10px 0;
-  }
-  //ENTREES ----
-  .entrees__wrapper:hover{
-      cursor: pointer;
-      
-    .check-wrapper{
-      flex: 0 0 2em;
-      font-size: 1.5em;
-      padding: 1em;
-      animation-duration: 0.5s;
-      animation-name: check-wrapper-animation;
+}
+//ENTREES ----
+.entrees__wrapper:hover {
+    cursor: pointer;
+
+    .check-wrapper {
+        flex: 0 0 2em;
+        font-size: 1.5em;
+        padding: 1em;
+        animation-duration: 0.5s;
+        animation-name: check-wrapper-animation;
     }
 
-    .fa-check-circle{
-      animation-duration: 0.5s;
-      animation-name: spin;
+    .fa-check-circle {
+        animation-duration: 0.5s;
+        animation-name: spin;
     }
-  }
-  //PLATS ----
-  .plats__wrapper:hover{
-      cursor: pointer;
-    
-    .check-wrapper{
-      flex: 0 0 2em;
-      font-size: 1.5em;
-      padding: 1em;
-      animation-duration: 0.5s;
-      animation-name: check-wrapper-animation;
+}
+//PLATS ----
+.plats__wrapper:hover {
+    cursor: pointer;
+
+    .check-wrapper {
+        flex: 0 0 2em;
+        font-size: 1.5em;
+        padding: 1em;
+        animation-duration: 0.5s;
+        animation-name: check-wrapper-animation;
     }
 
-    .fa-check-circle{
-      animation-duration: 0.5s;
-      animation-name: spin;
+    .fa-check-circle {
+        animation-duration: 0.5s;
+        animation-name: spin;
     }
-  }
-  //DESSERTS ----
-  .desserts__wrapper:hover{
-      cursor: pointer;
-    
-    .check-wrapper{
-      flex: 0 0 2em;
-      font-size: 1.5em;
-      padding: 1em;
-      animation-duration: 0.5s;
-      animation-name: check-wrapper-animation;
+}
+//DESSERTS ----
+.desserts__wrapper:hover {
+    cursor: pointer;
+
+    .check-wrapper {
+        flex: 0 0 2em;
+        font-size: 1.5em;
+        padding: 1em;
+        animation-duration: 0.5s;
+        animation-name: check-wrapper-animation;
     }
 
-    .fa-check-circle{
-      animation-duration: 0.5s;
-      animation-name: spin;
+    .fa-check-circle {
+        animation-duration: 0.5s;
+        animation-name: spin;
     }
-  }
+}
 
 //--------------------------------------------------------------------------
 
-
-
-
-
-
-
 // BTN COMMAND
-.section__command__btn{
+.section__command__btn {
     padding: 30px 20px 60px 20px;
 }
-.command__btn{
+.command__btn {
     background-color: $secondary-color;
     border-radius: 25px;
     text-align: center;
@@ -328,41 +312,39 @@ h3{
     width: 50%;
     margin: auto;
     background: linear-gradient($secondary-color, $primary-color);
-    box-shadow: 0px 5px 20px 2px rgba(148,145,148,1);
+    box-shadow: 0px 5px 20px 2px rgba(148, 145, 148, 1);
 
-    &__txt{
+    &__txt {
         color: white;
         text-decoration: none;
-        font-weight: 400;  
+        font-weight: 400;
     }
-    
 }
 
-.command__btn:hover{
+.command__btn:hover {
     cursor: pointer;
     background: darken($secondary-color, 5);
-    box-shadow: 0px 5px 15px 1px rgba(184,162,184,1);
+    box-shadow: 0px 5px 15px 1px rgba(184, 162, 184, 1);
 }
-
 
 // ANIMATIONS
 
-.entrees__wrapper{
+.entrees__wrapper {
     animation: fadein ease 3s;
 }
 
-.plats__wrapper{
+.plats__wrapper {
     animation: fadein ease 6s;
 }
 
-.desserts__wrapper{
+.desserts__wrapper {
     animation: fadein ease 8s;
 }
 
-.entrees__block, .plats__block, .desserts__block{
-
-    h3{
+.entrees__block,
+.plats__block,
+.desserts__block {
+    h3 {
         animation: slideR_L ease 2s;
-     }
+    }
 }
-
